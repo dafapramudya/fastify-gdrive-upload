@@ -1,0 +1,26 @@
+{
+  "name": "gdriveupload",
+  "version": "1.0.0",
+  "description": "Simple rest api to upload any file to google drive",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google-drive",
+    "googleapis",
+    "gdrive"
+  ],
+  "author": "Dafa Pramudya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fastify": "^2.13.0",
+    "fastify-file-upload": "^2.0.1",
+    "fastify-multer": "^1.5.2",
+    "fastify-multipart": "^1.0.5",
+    "googleapis": "^48.0.0",
+    "pump": "^3.0.0",
+    "streamifier": "^0.1.1"
+  }
+}

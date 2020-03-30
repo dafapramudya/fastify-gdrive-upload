@@ -1,0 +1,8 @@
+# package lock
+package-lock.json
+
+#private_key gcp
+private_key.json
+
+# Dependency directories
+node_modules/
